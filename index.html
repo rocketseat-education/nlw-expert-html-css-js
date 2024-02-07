@@ -10,32 +10,39 @@
 </head>
 
 <body>
-    <h1>Teste seus conhecimentos</h1>
+    <main>
+        <header>
+            <img src="https://gist.githubusercontent.com/maykbrito/f47569e32fb2b21f2ecc9f4c035c141f/raw/a45997404564112d7596fbb1b9cad5de5521927e/logo.svg"
+                alt="Logo da NLW">
+            <h1>Teste seus conhecimentos</h1>
+        </header>
 
-    <div id="quiz"></div>
+        <div id="quiz"></div>
 
-    <template>
-        <div class="quiz-item">
-            <h3>
-                Pergunta 01
-            </h3>
-            <dl>
-                <dt>
-                    <input type="radio" name="item" value="0">
-                    <span>
-                        Resposta A
-                    </span>
-                </dt>
-            </dl>
+        <template>
+            <div class="quiz-item">
+                <h3>
+                    Pergunta 01
+                </h3>
+                <dl>
+                    <dt>
+                        <input type="radio" name="item" value="0">
+                        <span>
+                            Resposta A
+                        </span>
+                    </dt>
+                </dl>
+            </div>
+        </template>
+
+        <div id="acertos">
+            <strong>Acertos</strong>
+            <span>0 de 10</span>
         </div>
-    </template>
 
-    <div id="acertos">
-        <strong>Acertos</strong>
-        <span>0 de 10</span>
-    </div>
+        <script src="./index.js"></script>
+    </main>
 
-    <script src="./index.js"></script>
 </body>
 
 </html>
